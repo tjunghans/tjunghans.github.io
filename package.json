@@ -1,0 +1,26 @@
+{
+  "name": "tjunghans.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "node-sass ./src/css/main.scss --output ./dist/",
+    "watch:css": "npm run build:css -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjunghans/tjunghans.github.io.git"
+  },
+  "author": "Thomas Junghans <thomas.junghans@gmail.com> (http://www.github.com/tjunghans)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjunghans/tjunghans.github.io/issues"
+  },
+  "homepage": "https://tjunghans.github.io",
+  "private": true,
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1"
+  }
+}
