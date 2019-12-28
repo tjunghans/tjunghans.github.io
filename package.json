@@ -20,7 +20,7 @@
   "homepage": "https://tjunghans.github.io",
   "private": true,
   "devDependencies": {
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.0",
     "normalize.css": "^8.0.1"
   }
 }
