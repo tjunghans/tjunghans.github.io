@@ -1,7 +1,23 @@
 @import "../../node_modules/normalize.css/normalize";
 @import "typebase";
 
+// https://colorhunt.co/palette/180289
+$light: #dae1e7;
+$dark: #27496d;
+$veryDark: #142850;
+$active: #00909e;
+
 body {
+  background-color: $light;
+  color: $veryDark;
   margin: 30px;
   font-family: acumin-pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+a {
+  color: $active;
+  &:hover {
+    color: $light;
+    background-color: $active;
+  }
 }
