@@ -7,6 +7,10 @@ $dark: #27496d;
 $veryDark: #142850;
 $active: #00909e;
 
+html {
+  font-size: 105%;
+}
+
 body {
   background-color: $light;
   color: $veryDark;

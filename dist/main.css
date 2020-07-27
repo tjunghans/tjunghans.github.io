@@ -396,6 +396,9 @@ code {
 .hug {
   margin-top: 0; }
 
+html {
+  font-size: 105%; }
+
 body {
   background-color: #dae1e7;
   color: #142850;
