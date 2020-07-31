@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="DE">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Programmieren für Primarschüler</title>
+    <link rel="stylesheet" href="/dist/main.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-155314498-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-155314498-1");
+    </script>
+    <script>
+      function escapeHtml(unsafe) {
+    return unsafe
+         .replace(/&/g, "&amp;")
+         .replace(/</g, "&lt;")
+         .replace(/>/g, "&gt;")
+         .replace(/"/g, "&quot;")
+         .replace(/'/g, "&#039;");
+ }
+    </script>
+  </head>
+  <body>
+    <h1>Programieren für Primarschüler</h1>
+    <h2>JavaScript</h2>
+
+    <p>
+      Die beliebteste Programmiersprache der Welt ist JavaScript. Sie ist die
+      Programmiersprache, welche im Internet am häufigsten verwendet wird. Damit
+      du selbst JavaScript programmieren kannst, brauchst du nur einen PC oder
+      Mac, einen Webbrowser und einen Text-Editor.
+    </p>
+
+    <dl>
+      <dt>Programmiersprache</dt>
+      <dd>
+        Eine Programmiersprache ist eine Sprache, die ein Computer versteht. Wie
+        Menschen, können Computer verschiedene Sprachen verstehen. Man nennt sie
+        Programmiersprachen, weil man mit den Sprachen Programme die auf dem
+        Computer gespeichert sind starten kann. Man kann auch neue Programme
+        erstellen.
+      </dd>
+      <dt>JavaScript</dt>
+      <dd>
+        JavaScript ist eine Programmiersprache, welche der Webbrowser verstehen
+        kann.
+      </dd>
+      <dt>Webbrowser</dt>
+      <dd>
+        Mit dem Webbrowser kann man im Internet surfen. Zu den beliebteste
+        Webbrowser gehören
+        <a href="https://www.mozilla.org/de/firefox/">Firefox</a>,
+        <a href="https://www.microsoft.com/de-de/edge">Edge</a>, Safari und
+        <a href="https://www.google.com/intl/de/chrome/">Chrome</a>. Es spielt
+        keine Rolle, welchen dieser Browser du für diese Übung verwendest.
+      </dd>
+    </dl>
+
+    <h2>Aufgaben</h2>
+    <h3>Hello World</h3>
+
+    <pre id="x"></pre>
+
+    <script>
+      const x = document.querySelector("#x");
+      x.innerHTML = escapeHtml(`
+<!DOCTYPE html>
+<html lang="DE">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <div></div>
+    <script>
+      document.querySelector("div").textContent = "Hello World!";  
+    </scr\ipt> 
+  </body>
+</html>`);
+    </script>
+
+    <a href="./hello-world.html">Test</a>
+
+    <h3>Hausaufgaben-Liste</h3>
+  </body>
+</html>
