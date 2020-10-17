@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Code consistency and progress</title>
+    <link rel="stylesheet" href="/../../dist/main.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Thomas Junghans",
+        "givenName": "Thomas",
+        "familyName": "Junghans",
+        "additionalName": "TJ",
+        "jobTitle": "Senior Software Developer (Director)",
+        "email": "thomas.junghans@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Zurich",
+          "addressRegion": "ZH",
+          "addressCountry": "CH"
+        },
+        "knowsLanguage": ["de", "en"],
+        "nationality": ["CH", "ZA"],
+        "birthPlace": "Port Shepstone, ZA"
+      }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-155314498-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-155314498-1");
+    </script>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Code Consistency and Progress</h1>
+      </header>
+      <div class="page-body">
+        <p>
+          Today I was in a discussion about using React Hooks in a large codebase, a 
+          10 year old application that has evolved with time, or to stick with 
+          Classes and the custom service and state pattern.
+          </p>
+
+          <p>
+            There's a conflict between consistency and progress. Consistency is about having a coding style 
+            and patterns that allow the entire codebase to look and feel the same. This is great for 
+            maintenance and it looks neat.
+
+            On the other hand, 100% consistency makes it impossible to introduce new ideas, such as patterns,
+            libraries or even programming paradigms. Imagine having a JavaScript code base and not wanting
+            to give Typescript a try, because it would make the codebase inconsistent, because updating 1000 js
+            source files in one day is impossible. 
+
+            Imagine sticking to an imperative programming style and avoiding a declarative or functional
+            style in favour of consistency. 
+
+            Consistency is great, but it does not allow for progress.
+          </p>
+        </ul>
+      </div>
+    </article>
+  </body>
+</html>
