@@ -397,6 +397,8 @@ h2 {
   margin-top: 1.5rem; }
 
 @media (min-width: 768px) {
+  .page {
+    width: 75%; }
   p {
     margin-top: 1.5rem; }
   h1 {
