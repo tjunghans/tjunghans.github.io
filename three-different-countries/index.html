@@ -1,55 +1,13 @@
-<!DOCTYPE html>
-<html lang="EN">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Thomas Junghans - Three different countries</title>
-    <link rel="stylesheet" href="/dist/main.css" />
-    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "Person",
-        "name": "Thomas Junghans",
-        "givenName": "Thomas",
-        "familyName": "Junghans",
-        "additionalName": "TJ",
-        "email": "thomas.junghans@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Zurich",
-          "addressRegion": "ZH",
-          "addressCountry": "CH"
-        },
-        "knowsLanguage": ["de", "en"],
-        "nationality": ["CH", "ZA"],
-        "birthPlace": "Port Shepstone, ZA"
-      }
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-155314498-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+---
+layout: default
+siteName: Thomas Junghans
+title: Three different countries
+---
 
-      gtag("config", "UA-155314498-1");
-    </script>
-  </head>
-  <body>
-    <div class="page">
-      <h1>Thomas Junghans</h1>
-      <h2>Three different countries</h2>
-      <p>
-        I was born in South Africa. At the age of three my father moved us back
-        to his country of birth, southern Germany. Six years later we moved back
-        to South Africa. When I was 16 we moved back to Europe and settled in
-        Switzerland.
-      </p>
-    </div>
-  </body>
-</html>
+<h1>{{ page.siteName }}</h1>
+<h2>{{ page.title }}</h2>
+<p>
+  I was born in South Africa. At the age of three my father moved us back to his
+  country of birth, southern Germany. Six years later we moved back to South
+  Africa. When I was 16 we moved back to Europe and settled in Switzerland.
+</p>
