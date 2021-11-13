@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="EN" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ site.data.site.name }} - {{ page.title }}</title>
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="og:title" property="og:title" content="{{ site.data.site.name }} - {{ page.title }}">
+    <meta name="og:description" property="og:description" content="{{ page.description }}">
+    <meta name="og:image" property="og:image" content="{{ site.data.site.host }}/assets/img/thomas-junghans_web_sw.jpg">
     <link rel="stylesheet" href="/dist/main.css" />
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "Person",
-        "name": "Thomas Junghans",
+        "name": "{{ site.data.site.name }}",
         "givenName": "Thomas",
         "familyName": "Junghans",
         "additionalName": "TJ",
