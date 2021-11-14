@@ -1,4 +1,7 @@
-@import "../../node_modules/normalize.css/normalize";
+---
+---
+
+@import "normalize";
 @import "typebase";
 
 // https://colorhunt.co/palette/180289
@@ -49,7 +52,6 @@ h2 {
   h3 {
     font-size: 1.414rem;
   }
-  
 }
 
 body {
@@ -64,5 +66,14 @@ a {
   &:hover {
     color: $light;
     background-color: $active;
+  }
+}
+
+h1 a {
+  color: $veryDark;
+  text-decoration: none;
+  &:hover {
+    color: $veryDark;
+    background-color: transparent;
   }
 }
