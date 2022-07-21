@@ -2,11 +2,15 @@
 layout: default
 title:  "My Daily Checklist"
 tags: ["productivity", "consistency", "habits"]
+date: 2022-07-21 12:00:00 +0200
+modified_date: 2022-07-21 20:56:00 +0200
 ---
 
 {% include header.html %}
 ## {{ page.title }}
 **Created** at {{ page.date }}
+
+**Modified** at {{ page.modified_date }}
 
 I prioritize progress over goals. 
 
@@ -37,26 +41,24 @@ to skip a day or two or more.
 
 ## Checklist
 
+Below is an example of my daily checklist. 
+
+The items should be specific and realistic.
+
+Don't add an item that is not consistently doable on a daily basis. 
+
+Don't add too many items so that you end up missing a few.
+
 - [ ] List at least one thing you're grateful for
 - [ ] Show appreciation to your loved ones
 - [ ] No coffee after 1pm
-- [ ] Ate carb, fat and protein with each meal
+- [ ] Eat carbs, fat and protein with each meal
 - [ ] 1 minute of pushups
 - [ ] 1 minute of squats
 - [ ] 1 minute of situps
 - [ ] 1 minute of lunges
 - [ ] 1 minute of stretching
+- [ ] 1 minute of planking
+- [ ] 1 minute of jumping jacks
 - [ ] Medidate for 5 minutes
 - [ ] Read 1 page of a book
-
-The above is an example of a daily checklist. 
-
-The items should be specific and realistic.
-
-The items should be consistently doable on a daily basis.
-
-
-
-
-
-
