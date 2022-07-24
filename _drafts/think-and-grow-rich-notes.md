@@ -110,3 +110,23 @@ the burning desire to own it.
 Practical dreamers do not quit.
 
 The world is filled with an abundance of opportunity.
+
+All who succeeed in life get off to a bad start and pass through many heartbreaking
+struggles before success.
+
+It's darkest before dawn.
+
+No one is defeated until defeat is accepted and reality.
+
+No one is ready for a thing until he believes he can require it.
+
+Desire outwits mother nature.
+
+A truly burning desire has devious ways of transmuting itself into its physical
+equivalent.
+
+> There are no limitations to the mind except those we acknolwedge
+
+> Both proverty and riches are the offspring of thought
+
+### Faith
