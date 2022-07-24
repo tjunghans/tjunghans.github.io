@@ -435,26 +435,31 @@ p {
   }
 }
 body {
-  background-color: #dae1e7;
-  color: #142850;
+  background-color: #fff;
+  color: #000;
   margin: 30px;
   font-family: acumin-pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: #00909e;
+  color: #1b02ee;
+  text-decoration: underline;
 }
 a:hover {
-  color: #dae1e7;
-  background-color: #00909e;
+  color: #fff;
+  background-color: #1b02ee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1b02ee;
 }
 
 h1 a {
-  color: #142850;
+  color: #1b02ee;
   text-decoration: none;
 }
 h1 a:hover {
-  color: #142850;
+  color: #1b02ee;
   background-color: transparent;
 }
 

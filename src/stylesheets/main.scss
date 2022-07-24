@@ -1,11 +1,9 @@
 @import "normalize";
 @import "typebase";
 
-// https://colorhunt.co/palette/180289
-$light: #dae1e7;
-$dark: #27496d;
-$veryDark: #142850;
-$active: #00909e;
+$secondary: #fff;
+$black: #000;
+$primary: #1b02ee;
 
 html {
   font-size: 105%;
@@ -27,25 +25,30 @@ p {
 }
 
 body {
-  background-color: $light;
-  color: $veryDark;
+  background-color: $secondary;
+  color: $black;
   margin: 30px;
   font-family: acumin-pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 
 a {
-  color: $active;
+  color: $primary;
+  text-decoration: underline;
   &:hover {
-    color: $light;
-    background-color: $active;
+    color: $secondary;
+    background-color: $primary;
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+}
+
 h1 a {
-  color: $veryDark;
+  color: $primary;
   text-decoration: none;
   &:hover {
-    color: $veryDark;
+    color: $primary;
     background-color: transparent;
   }
 }

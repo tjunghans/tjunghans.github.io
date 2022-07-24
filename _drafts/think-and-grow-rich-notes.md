@@ -129,4 +129,19 @@ equivalent.
 
 > Both proverty and riches are the offspring of thought
 
-### Faith
+### Chapter 3: Faith
+
+Faith is the head chemist of the mind.
+
+Faith, love and sex are the most powerful of all the major positive emotions.
+
+When faith, love and sex are blended they can change a thought so that it instantly
+reaches the subconcious mind.
+
+Faith is a state of mind, induced or created by autosuggestion.
+
+The goal is to transmute the intangible thought impulse of desire into its physical
+counterpart, money.
+
+> Repetition of affirmation of orders to your subconcious mind is the only known 
+> method of voluntary development of the emotion of faith.
