@@ -66,6 +66,47 @@ Maintain a spirit of open-mindedness.
 
 ### Chapter 2: Desire
 
+Thoughts matter more than appearance.
+
+Desire is not *hope* and it is not *wish*.
+
+Success is the result of a definitive goal that receives all your energy, will
+power and effort.
+
+Focus on one thing. Ignore other opportunities.
+
+Win or perish. Burn bridges to get to your goal if you have to. Turning back
+must not be an option.
+
+Wishing will not bring riches.
+
+Desires with an obsessed state of mind, definite planning backed by persistence
+which does not recognize failure will bring riches.
+
+#### Six ways to turn desires into gold
+
+1. Fix in your mind the exact amount of money desired.
+2. Determine what you will give in return for the desired amount of money. 
+   (Nothing is for free.)
+3. Set a definitive date by when you intend the possess the amount of money.
+4. Create a definite plan for carrying out your desire.
+5. Write statement about the amount of desired money, how it will be acquired and
+   by when.
+6. Read the written statement aloud twice a day, once before bed and once as soon
+  as you are awake. See, feel and believe yourself already in possession of the 
+  desired amount of money.
+
+The six steps above are important.
+
+The application of the six steps calls for sufficient imagination.
+
+Dreaming, hoping, wishing and desiring are prerequisites for great success.
+
+You will not possess unless you work yourself into a white heat of desire.
+
+To win one must possess definiteness of purpose, knowledge of what one wants and
+the burning desire to own it.
+
 Practical dreamers do not quit.
 
 The world is filled with an abundance of opportunity.
