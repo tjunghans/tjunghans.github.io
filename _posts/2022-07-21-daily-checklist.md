@@ -22,15 +22,15 @@ I've given up on going to the gym.
 
 For me *being* at the gym is the easy part. 
 
-It's *getting ready for* and *going* to the gym that challenge my discipline.
+It's *getting ready for* and *going* to the gym that require more discipline than I'm willing to spend.
 
 Anything that challenges my discipline too much risks of not being done.
 
 I prefer to do what I can do consistently. 
 
-> The point is to master the habit of showing up
+> The point is to master the habit of showing up.
 
-<cite>James Clear. “Atomic Habits: Tiny Changes, Remarkable Results”.</cite>
+<cite>**Source** James Clear. “Atomic Habits: Tiny Changes, Remarkable Results”.</cite>
 
 I do what works. Rather little instead nothing.
 

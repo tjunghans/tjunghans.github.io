@@ -3,7 +3,7 @@ title: Core Values
 ---
 
 {% include header.html %}
-<h2>{{ page.title }}</h2>
+## {{ page.title }}
 <h3 id="integrity">Integrity</h3>
 <q cite="https://en.wikipedia.org/wiki/Integrity">Integrity is the practice of
   being honest and showing a consistent and
