@@ -28,8 +28,9 @@ Anything that challenges my discipline too much risks of not being done.
 
 I prefer to do what I can do consistently. 
 
-> “The point is to master the habit of showing up”
-> -- <cite>James Clear. “Atomic Habits: Tiny Changes, Remarkable Results”.</cite>
+> The point is to master the habit of showing up
+
+<cite>James Clear. “Atomic Habits: Tiny Changes, Remarkable Results”.</cite>
 
 I do what works. Rather little instead nothing.
 
