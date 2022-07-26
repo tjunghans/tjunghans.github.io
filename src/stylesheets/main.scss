@@ -5,22 +5,9 @@ $secondary: #fff;
 $black: #000;
 $primary: #1b02ee;
 
-html {
-  font-size: 105%;
-}
-
-p {
-  line-height: 1.5;
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
-
 @media (min-width:768px) {
   .page {
     width: 75%;
-  }
-  p {
-    margin-top: 1.5rem;
   }
 }
 
