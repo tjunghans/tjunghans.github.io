@@ -409,7 +409,6 @@ code {
 }
 body {
   background-color: #fff;
-  color: #000;
   margin: 30px;
   font-family: acumin-pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -423,11 +422,13 @@ a:hover {
   background-color: #1b02ee;
 }
 
-h1 a {
+h1 a,
+h2 a {
   color: #1b02ee;
   text-decoration: none;
 }
-h1 a:hover {
+h1 a:hover,
+h2 a:hover {
   color: #1b02ee;
   background-color: transparent;
 }

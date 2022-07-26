@@ -5,7 +5,7 @@ $secondary: #fff;
 $black: #000;
 $primary: #1b02ee;
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .page {
     width: 75%;
   }
@@ -13,9 +13,9 @@ $primary: #1b02ee;
 
 body {
   background-color: $secondary;
-  color: $black;
   margin: 30px;
-  font-family: acumin-pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-family: acumin-pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -27,7 +27,8 @@ a {
   }
 }
 
-h1 a {
+h1 a,
+h2 a {
   color: $primary;
   text-decoration: none;
   &:hover {
@@ -36,7 +37,7 @@ h1 a {
   }
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   margin-right: 0.25rem;
 }
 
@@ -44,10 +45,10 @@ blockquote {
   font-style: italic;
 
   p:before {
-    content: "\""
+    content: '"';
   }
 
   p:after {
-    content: "\""
+    content: '"';
   }
 }
