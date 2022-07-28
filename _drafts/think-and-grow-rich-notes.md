@@ -215,6 +215,45 @@ Riches begin with thought.
 
 ### Chapter 4: Autosuggestion
 
+Autosuggestion is the application of any self-administered stimuli which reach
+one's mind through the 5 senses.
+
+Autosuggestion is self-suggestion.
+
+We have control over what reaches our subconcious mind.
+
+We may feed our mind with constructive thoughts and neglect it with destructive thoughts.
+
+The mere reading of words is of no consequence unless mixed with metion or feelings.
+
+Plain unemotional words do not influence the subconcious mind.
+
+Nothing is for free.
+
+There's a price to pay for the desire. The bigger the desire, the bigger the price.
+
+If you desire 100 million CHF by end of the year, you'll likely have a hard time
+imagining it and providing the realistic time and effort to aquire such wealth.
+
+Find a realistic desired amount for a feasable timeline and manageable effort.
+
+The subconcious mind takes any orders given it in a spirit of absolute faith, and acts upon those orders.
+
+You don't need a plan for the desired amount of money. Start by visualising the
+possession of the desired amount at once.
+
+> When visualizing the money you intend to accumulated, see yourself rendering 
+> the service, or delivering the merchanidse iyou intend to give in return for 
+> this money. This is important!
+
+#### Six steps to stimulate your subconcious mind
+
+First: in a quite, undisturbed spot, repeat alloud the written statement of the
+amount of money you desire, the time limit for its accumulation, and the service
+you wish to give in return.
+
 ### Chapter 5: Specialized Knowledge
 
 ### Chapter 6: Imagination
+
+### Chapter 7: Organized Planning
