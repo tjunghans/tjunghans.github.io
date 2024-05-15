@@ -13,8 +13,7 @@ title: Core Values
 <h3 id="golde_rule">Golden Rule</h3>
 <q cite="https://en.wikipedia.org/wiki/Golden_Rule">The Golden Rule is the
   principle of treating others as one wants to be
-  treated.</q
-  s>&nbsp;<a href="https://en.wikipedia.org/wiki/Golden_Rule">Source</a>
+  treated.</q>&nbsp;<a href="https://en.wikipedia.org/wiki/Golden_Rule">Source</a>
 
 <h3 id="candor">Candor</h3>
 <q cite="https://dictionary.cambridge.org/dictionary/english/candor">The quality
