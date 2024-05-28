@@ -2,28 +2,28 @@
 title: Core Values
 ---
 
-{% include header.html %}
-## {{ page.title }}
-<h3 id="integrity">Integrity</h3>
+{% include header.html title="Core Values" %}
+
+{% include h2.html text="Integrity" id="integrity" %}
+
 <q cite="https://en.wikipedia.org/wiki/Integrity">Integrity is the practice of
   being honest and showing a consistent and
-  uncompromising adherence to strong moral and ethical principles and values.</q>&nbsp;<a
-  href="https://en.wikipedia.org/wiki/Integrity">Source</a>
+  uncompromising adherence to strong moral and ethical principles and values.</q>&nbsp;{% include link.html text="Source" href="https://en.wikipedia.org/wiki/Integrity" %}
 
-<h3 id="golde_rule">Golden Rule</h3>
+{% include h2.html text="Golden Rule" id="golde_rule" %}
 <q cite="https://en.wikipedia.org/wiki/Golden_Rule">The Golden Rule is the
   principle of treating others as one wants to be
-  treated.</q>&nbsp;<a href="https://en.wikipedia.org/wiki/Golden_Rule">Source</a>
+  treated.</q>&nbsp;{% include link.html text="Source" href="https://en.wikipedia.org/wiki/Golden_Rule" %}
 
-<h3 id="candor">Candor</h3>
+{% include h2.html text="Candor" id="candor" %}
 <q cite="https://dictionary.cambridge.org/dictionary/english/candor">The quality
   of being honest, sincere, and kind in dealing with other people.</q>
-&nbsp;<a href="https://dictionary.cambridge.org/dictionary/english/candor">Source</a>
+&nbsp;{% include link.html text="Source" href="https://dictionary.cambridge.org/dictionary/english/candor" %}
 
-<h3 id="inclusion">Inclusion</h3>
+{% include h2.html text="Inclusion" id="inclusion" %}
 <q cite="https://en.wikipedia.org/wiki/Social_exclusion#Social_inclusion">Social
   inclusion is the process of
   improving the ability, opportunity, and worthiness of people, disadvantaged on
   the basis of their identity,
   to take part in society</q>
-&nbsp;<a href="https://en.wikipedia.org/wiki/Social_exclusion#Social_inclusion">Source</a>
+&nbsp;{% include link.html text="Source" href="https://en.wikipedia.org/wiki/Social_exclusion#Social_inclusion" %}

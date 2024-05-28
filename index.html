@@ -2,51 +2,39 @@
 title: About Me
 ---
 
-{% include header.html %}
-<h2>Me In 10 Seconds</h2>
+{% include header.html title="About Me" %}
 
-<p>
+{% include h2.html text="Me In 10 Seconds" %}
+<p class="my-2">
   I have been working as a
-  <a href="https://en.wikipedia.org/wiki/Web_application">web application</a>
-  developer since 2005. 
+  {% include link.html href="https://en.wikipedia.org/wiki/Web_application" text="web application" %}
+  developer since 2005.
 </p>
 
-<h2>What Am I Doing Now?</h2>
-<p>
-  I am part of the team that creates cutting edge trading tools for the leading
-  Swiss private bank,
-  <a href="https://www.juliusbaer.com">Julius Bär</a> in the beautiful city of
-  <a href="https://www.zuerich.com/en">Zurich</a>.
-</p>
+{% include h2.html text="What Am I Doing Now?" %}
+<p class="my-2">See {% include link.html text="my \"now\" page" href="/now" %}.</p>
 
-<h2>Core Values</h2>
-<ul>
-  <li><a href="/core-values#integrity">Integrity</a></li>
-  <li>
-    <a href="/core-values#golden_rule">Golden Rule</a>
+{% include h2.html text="Core Values" %}
+<p class="my-2">See {% include link.html text="my \"core values\" page" href="/core-values" %}.</p>
+
+{% include h2.html text="Get In Touch" %}
+<ul class="px-4">
+  <li class="list-disc">
+    {% include link.html href="mailto:thomas.junghans@gmail.com" text=site.data.site.email %}
   </li>
-  <li><a href="/core-values#candor">Candor</a></li>
-  <li>
-    <a href="/core-values#inclusion">Inclusion</a>
+  <li class="list-disc">{% include link.html href="https://github.com/tjunghans" text="Github" %}</li>
+  <li class="list-disc">
+    {% include link.html href="https://www.linkedin.com/in/thomasjunghans/" text="LinkedIn" %}
   </li>
 </ul>
 
-<h2>Get In Touch</h2>
-<ul>
-  <li>
-    <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a>
-  </li>
-  <li><a href="https://github.com/tjunghans">Github</a></li>
-  <li>
-    <a href="https://www.linkedin.com/in/thomasjunghans/">LinkedIn</a>
-  </li>
-</ul>
-
-<h2>Posts</h2>
-<ul>
+{% include h2.html text="Posts" %}
+<p>Nothing to see here just yet. You can find some of {% include link.html href="https://medium.com/@tangiblej" text="my
+  thoughts on Medium." %}</p>
+<ul class="px-4">
   {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+  <li class="list-disc">
+    {% include link.html text="{{ post.title }}" href="{{ post.url }}" %}
   </li>
   {% endfor %}
 </ul>

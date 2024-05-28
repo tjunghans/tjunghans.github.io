@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "jekyll serve",
-    "build:css": "sass ./src/stylesheets/main.scss ./css/main.css",
+    "build:css": "npx tailwindcss -i ./assets/css/style.css -o ./css/style.css --watch",
     "lh": "lighthouse http://localhost:4000/ --view"
   },
   "repository": {
@@ -20,7 +20,6 @@
   "homepage": "https://tjunghans.github.io",
   "private": true,
   "devDependencies": {
-    "normalize.css": "^8.0.1",
-    "sass": "^1.54.0"
+    "tailwindcss": "^3.4.3"
   }
 }
