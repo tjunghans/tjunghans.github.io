@@ -592,6 +592,14 @@ video {
   line-height: 1;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(74 222 128 / var(--tw-text-opacity));

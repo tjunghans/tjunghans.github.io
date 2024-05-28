@@ -4,8 +4,8 @@ module.exports = {
     '_includes/**/*.html',
     '_layouts/**/*.html',
     '_posts/**/*.html',
-    'core-values/**/*.html',
-    'now/**/*.html',
+    '**/*.html',
+    '**/*.html',
     '*.markdown',
     'index.html'
   ],
