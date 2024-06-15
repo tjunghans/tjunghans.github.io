@@ -568,6 +568,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -607,4 +611,16 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+@media (min-width: 768px) {
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
 }
