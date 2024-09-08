@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ site.data.site.name }} - {{ page.title }}</title>
-  <link rel="manifest" href="site.webmanifest">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="canonical" href="{{ site.data.site.host }}">
   <meta name="description" content="{{ page.description }}">
   <meta name="og:title" property="og:title" content="{{ site.data.site.name }} - {{ page.title }}">
@@ -32,23 +32,15 @@
         "knowsLanguage": ["de", "en"],
         "nationality": ["CH", "ZA"]
       }
-    </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155314498-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "UA-155314498-1");
   </script>
 </head>
 
-<body class="bg-black">
-  <div class="m-4">
-    {{ content }}
+<body class="bg-black text-gray-300">
+  <div class="mt-12 mb-24 mx-auto w-full lg:w-1/2">
+    {% include header.html title="{ page.title }" %}
+    <small>Last Modified {{ page.date | date: "%-d. %B %Y" }}</small>
+    <section>
+      {{ content }}</section>
   </div>
 </body>
 

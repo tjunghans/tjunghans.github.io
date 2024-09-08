@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: currentColor;
+  border-color: #e5e7eb;
   /* 2 */
 }
 
@@ -554,26 +554,59 @@ video {
   --tw-contain-style:  ;
 }
 
-.m-4 {
-  margin: 1rem;
+.relative {
+  position: relative;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
   margin-bottom: 0.5rem;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-3 {
   margin-bottom: 0.75rem;
 }
 
-.w-1\/2 {
-  width: 50%;
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.table {
+  display: table;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .list-disc {
   list-style-type: disc;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .px-4 {
@@ -586,14 +619,9 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -604,19 +632,81 @@ video {
   font-style: italic;
 }
 
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(74 222 128 / var(--tw-text-opacity));
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(181 33 127 / var(--tw-text-opacity));
 }
 
 .underline {
   text-decoration-line: underline;
 }
 
-@media (min-width: 768px) {
-  .md\:w-1\/2 {
-    width: 50%;
-  }
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(181 33 127 / var(--tw-text-opacity));
+}
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(181 33 127 / var(--tw-text-opacity));
+}
+
+li {
+  margin-left: 1rem;
+  list-style-type: disc;
+}
+
+section {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+small {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+ul {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-style: solid;
+}
+
+th {
+  border-width: 2px;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+td {
+  border-width: 2px;
+  padding: 0.5rem;
+  vertical-align: top;
 }
 
 @media (min-width: 1024px) {

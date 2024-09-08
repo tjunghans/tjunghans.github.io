@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h2 {
+    @apply text-xl mt-6 mb-2 font-bold text-secondary
+}
+
+h3 {
+    @apply text-lg mt-4 mb-2 font-bold text-secondary
+}
+
+li {
+    @apply list-disc ml-4
+}
+
+section {
+    @apply my-2
+}
+
+small {
+    @apply text-sm
+}
+
+ul {
+    @apply px-4 mb-2
+}
+
+table {
+    @apply border-collapse border-solid 
+}
+
+th {
+    @apply border-2 p-2 align-top
+}
+
+td {
+    @apply border-2 p-2 align-top
+}
