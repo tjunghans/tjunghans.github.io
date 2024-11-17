@@ -13,7 +13,7 @@ Recruiting and hiring software engineers who are a good fit for the team and com
 
 ## Settling In, Impact, Growth, and Rewards
 
-<h3 class="">The First Year: Settling In</h3>
+### The First Year: Settling In
 The first year is about acclimating to the company—learning the people, the processes, and understanding how things operate over the course of an entire fiscal year. It’s about getting grounded in the role and establishing a solid foundation.
 
 ### The Second Year: Making an Impact

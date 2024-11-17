@@ -21,7 +21,17 @@ module.exports = {
       gray: colors.gray,
     },
     extend: {
-
+      fontSize: {
+        'base': ['1rem', {
+          lineHeight: '2rem',
+        }],
+        'lg': ['1.125rem', {
+          lineHeight: '2.25rem',
+        }],
+        'xl': ['1.25rem', {
+          lineHeight: '2.5rem',
+        }],
+      },
     },
   },
   plugins: [],
