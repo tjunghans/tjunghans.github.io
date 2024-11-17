@@ -1,3 +1,5 @@
+timezone: Europe/Zurich
+author: "Thomas Junghans"
 defaults:
   -
     scope:
@@ -10,3 +12,9 @@ defaults:
     values:
       layout: "default"
       description: "Swiss based web application developer."
+  -
+   scope:
+      path: ""
+      type: "posts" 
+   values:
+      layout: "post"
