@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+    @apply underline text-primary
+}
+
 h2 {
     @apply text-xl mt-6 mb-2 font-bold text-secondary
 }

@@ -592,12 +592,12 @@ video {
   display: table;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-10\/12 {
   width: 83.333333%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .grow {
@@ -657,6 +657,12 @@ video {
 }
 
 .underline {
+  text-decoration-line: underline;
+}
+
+a {
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity));
   text-decoration-line: underline;
 }
 
