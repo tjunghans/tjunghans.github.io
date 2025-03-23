@@ -1,7 +1,7 @@
 ---
 title: What I'm doing now
-date: 2024-05-20 12:30:00 +02
 ---
+
 <p class="my-4">
     Updated May 20th, 2024, from my home in Switzerland.
 </p>

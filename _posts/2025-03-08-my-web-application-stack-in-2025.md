@@ -1,5 +1,4 @@
 ---
-date: 2025-03-08 10:43:00 +02
 title: My web application stack in 2025
 tags: web application tailwindcss vite vitest swc typescript eslint react
 category: frontend

@@ -1,5 +1,4 @@
 ---
-date: 2024-11-01 12:22:00 +02
 title: The Importance of Live Coding Challenges in the Screening Process
 tags: hiring recruiting screening cvs software engineer
 category: recruiting

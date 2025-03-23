@@ -1,5 +1,4 @@
 ---
-date: 2024-09-08 19:11:00 +02
 title:  "Screening CVs with the help of a spread sheet"
 tags: hiring recruiting screening cvs software engineer
 category: recruiting

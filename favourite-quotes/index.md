@@ -1,6 +1,5 @@
 ---
 title: Favourite Quotes
-date: 2024-11-16 22:10:00 +02
 ---
 
 <p class="my-4"><quote class="italic">"Always reach for the stars, even if it means standing on a cactus."</quote><span> - Unknown</span></p>

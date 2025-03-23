@@ -1,7 +1,7 @@
 ---
 title: About Me
-date: 2024-11-17 22:10:00 +02
 ---
+
 <img src="/assets/img/thomas-junghans_web_sw.jpg" alt="Photo of me" class="lg:w-1/2 w-full" />
 
 ## Me In 10 Seconds
