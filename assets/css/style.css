@@ -41,3 +41,11 @@ th {
 td {
     @apply border-2 p-2 align-top
 }
+
+blockquote {
+    @apply  italic font-semibold ml-4 my-4
+}
+
+p {
+    @apply my-4
+}

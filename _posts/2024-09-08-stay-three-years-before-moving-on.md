@@ -1,5 +1,4 @@
 ---
-date: 2024-09-08 19:10:00 +02
 title:  Stay at Your Job for Three Years Before Moving On
 tags: hiring recruiting screening cvs software engineer
 category: recruiting

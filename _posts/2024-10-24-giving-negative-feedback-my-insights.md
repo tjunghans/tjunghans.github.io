@@ -1,5 +1,4 @@
 ---
-date: 2024-10-20 20:10:00 +02
 title: Giving negative feedback — my insights
 tags: leadership growth feedback
 category: leadership

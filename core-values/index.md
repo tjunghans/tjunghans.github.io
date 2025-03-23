@@ -1,6 +1,5 @@
 ---
 title: Core Values
-date: 2024-11-16 22:10:00 +02
 ---
 ## Integrity
 

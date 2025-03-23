@@ -724,6 +724,19 @@ td {
   vertical-align: top;
 }
 
+blockquote {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 768px) {
   .md\:text-lg {
     font-size: 1.125rem;

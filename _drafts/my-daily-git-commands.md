@@ -1,5 +1,4 @@
 ---
-date: 2024-11-20 21:39:00 +02
 title: My daily git commands
 tags: git versioning software git-flow
 category: git
