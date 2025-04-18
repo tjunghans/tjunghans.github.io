@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "jekyll serve",
     "build:css": "npx tailwindcss -i ./assets/css/style.css -o ./css/style.css",
+    "postinstall": "npm run build:css",
     "watch:css": "npm run build:css -- --watch",
     "lh": "lighthouse http://localhost:4000/ --view"
   },
