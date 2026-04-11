@@ -3,15 +3,13 @@ title: What I'm doing now
 ---
 
 <p>
-    Updated May 20th, 2024, from my home in Switzerland.
+    Updated Feb 25, 2026, from my home in Switzerland.
 </p>
 
-<p>I live and work in Zurich.</p>
+<p>I live and work in Zurich city.</p>
 
 <p>
-    I am part of the team that creates cutting edge trading tools for the leading
-    Swiss private bank, {% include link.html text="Julius Bär" href="https://www.juliusbaer.com" %} in the beautiful
-    city of {% include link.html text="Zurich" href="https://www.zuerich.com/en" %}.
+    I lead a development team at a premier Swiss private bank, building cutting-edge trade capture and market applications that empower Relationship Managers to deliver superior client service.
 </p>
 
 <p>I'm currently reading the following books:</p>
@@ -20,24 +18,18 @@ title: What I'm doing now
     </li>
     <li class="list-disc">{% include link.html text="The Pragmatic Programmer (20th Anniversary Edition) by David Thomas
         and Andrew Hunt" href="https://amzn.to/4aDAoQI" %}</li>
-    <li class="list-disc">{% include link.html text="Leadership and Self-Deception, Getting out of the box by The
-        Arbinger Institute" href="https://amzn.to/4aC1ZBK" %}</li>
+    <li class="list-disc">{% include link.html text="The Trillion Dollar Coach by Eric Schmidt, Jonathan Rosenberg, and Alan Eagle" href="https://trilliondollarcoach.com/" %}</li>
 </ul>
 
+<p>I’ve taken on a challenge with a close friend to run from Altstetten up Uetliberg 52 times this year. It’s a 14 km round trip with a 400m vertical climb - a tough but rewarding weekly ritual."</p>
 
-<p>I'm taking part in the {% include link.html text="Swiss Irontrail T20" href="https://www.irontrail.ch/"
-    %} end of June 2024. </p>
+## Courses
 
-<p>I'm studying the popular frontend frameworks {% include link.html text="Next.js"
-    href="https://nextjs.org/" %} and {% include link.html text="Vite" href="https://vitejs.dev/" %} and making first
-    contact with {% include link.html text="GraphQL" href="https://graphql.org/" %}.</p>
+{% include link.html text="Google People Management Essentials Specialization" href="https://www.coursera.org/programs/julius-baer-learning-program/specializations/google-people-management-essentials?authProvider=juliusbaer" %} (recently completed)
 
 ## Sacool.ch
-<p>As a long term and personal side project I'm building an exercise generator for Swiss primary schools
+
+<p>A long term and personal side project. I'm building a {% include link.html href="https://www.lmvz.ch/" text="LMVZ" %} compatible math exercise generator for Swiss primary schools
     called {%
     include link.html text="Sacool"
-    href="https://www.sacool.ch" %}. Useful for teachers who effortlessly want to occupy eager pupils with tailored
-    exercise sheets.</p>
-
-## Wordpress
-<p>I help out and maintain several private and and non-profit Wordpress websites.</p>
+    href="https://www.sacool.ch" %}. It's useful for teachers (and parents) who effortlessly want to occupy eager pupils with tailored exercise sheets.</p>
