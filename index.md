@@ -5,6 +5,7 @@ title: About Me
 <img src="/assets/img/thomas-junghans_web_sw.jpg" alt="Photo of me" class="lg:w-1/2 w-full" />
 
 ## Me In 10 Seconds
+
 <p>
   I'm South African with German roots and Swiss citizenship. <br /> I have been working as a
   {% include link.html href="https://en.wikipedia.org/wiki/Web_application" text="web application" %}
@@ -13,15 +14,23 @@ title: About Me
 </p>
 
 ## What Am I Doing Now?
+
 <p>See {% include link.html text="my \"now\" page" href="/now" %}.</p>
 
 ## Core Values
+
 <p>See {% include link.html text="my \"core values\" page" href="/core-values" %}.</p>
 
 ## Favourite Quotes
+
 <p>See {% include link.html text="my \"favourite quotes\" page" href="/favourite-quotes" %}.</p>
 
+## Reading
+
+<p>See {% include link.html text="my \"Reading\" page" href="/reading" %}.</p>
+
 ## Posts
+
 <ul class="px-4 mb-2">
   {% for post in site.posts %}
   <li class="list-disc">
@@ -34,6 +43,7 @@ title: About Me
   thoughts on Medium." %} as well.</p>
 
 ## Get In Touch
+
 <ul class="px-4">
   <li class="list-disc">
     {% include link.html href="mailto:thomas.junghans@gmail.com" text=site.data.site.email %}
