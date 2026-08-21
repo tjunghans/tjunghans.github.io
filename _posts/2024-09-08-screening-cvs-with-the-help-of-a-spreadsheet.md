@@ -1,72 +1,55 @@
 ---
-title:  "Screening CVs with the help of a spread sheet"
-tags: hiring recruiting screening cvs software engineer
-category: recruiting
-layout: post
-tags: hiring screening recruiting cv resume
+title:  "Screening CVs with the Help of a Spreadsheet"
+tags: hiring recruiting screening cv resume
 category: recruiting
 ---
 
-<p>
-To bring more structure to my process of reviewing software engineer candidates' CVs, I decided to use a spreadsheet tool—Excel in my case.
-</p>
+To bring more structure to my process of reviewing software engineer candidates' CVs, I use a spreadsheet — Excel, in my case.
 
-<p>
-The columns included the candidate's name, several key areas of interest, relevant criteria, and a scoring system.
-</p>
-
+The columns include the candidate's name, several key areas of interest, relevant criteria, and a scoring system.
 
 Example:
 
-| Candidate Name | Java | Oracle | Docker | Spring Boot | Git | HTTP | Team Lead? | Plus 3 years at company? | Experience in finance sector | Score |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Joe Soap | 1 | 1 | 0 | 1 | 1 | 1 | 1 | 1 | 7 | ? |
+| Candidate Name | Java | Oracle | Docker | Spring Boot | Git | HTTP | Team Lead? | 3+ Years at Company? | Finance Sector Experience? | Score |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Joe Soap | 1 | 1 | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 7 |
 
+## Picking the Keywords
 
-## Picking the keywords
+Suppose I'm searching for a senior TypeScript software engineer with expertise in React, TailwindCSS, Jest (for testing), ESLint (for code quality), and web applications. Ideally, the candidate would also have experience with structured products in the finance sector, plus leadership experience — either leading a team or serving as a technical lead.
 
-<p>
-Suppose I'm searching for a senior TypeScript software engineer with expertise in React, TailwindCSS, Jest (for testing), ESLint (for code quality), and web applications. Ideally, the candidate would also have experience with structured products in the finance sector. Additionally, I'm looking for someone with leadership experience—either through leading a team or serving as a technical leader.
-</p>
+From that description, I can pull out the following keywords and conditions:
 
-<p>
-The following keywords and conditions can be taken from the above description:
-</p>
-
-- Typescript
+- TypeScript
 - React
 - TailwindCSS
 - Jest
 - Testing
-- Eslint
+- ESLint
 
 
-- Has lead a team?
-- Has been technical lead in a team or for a project?
+- Has led a team?
+- Has been technical lead on a team or project?
 - Has worked at a bank or another company in the financial sector?
 - Has worked as a software engineer for at least three years?
 
 ## Conditions
 
-<p>
-Additional conditions I like to add:
-</p>
+A few additional conditions I like to add:
 
-<ul>
-<li>Has a well-organized, grammatically correct CV, demonstrating attention to detail and a strong sense of professionalism in presentation.</li>
-<li>Has been at one company for at <a class="underline text-primary" href="{% post_url 2024-09-08-stay-three-years-before-moving-on %}">least three years</a> (no job hopping, proven track record)?</li>
-</ul>
+- Has a well-organized, grammatically correct CV, demonstrating attention to detail and professionalism in presentation.
+- Has been at one company for at [least three years]({% post_url 2024-09-08-stay-three-years-before-moving-on %}) (no job hopping, proven track record).
 
-Now, it's time to set up a spreadsheet with the following columns:
+Now it's time to set up a spreadsheet with the following columns:
 
 - Candidate name
-- Javascript
-- Typescript
+- JavaScript
+- TypeScript
 - React
-- Tailwindcss
+- TailwindCSS
 - Jest
 - Testing
-- Eslint
+- ESLint
 - Team lead
 - Technical lead
 - Financial sector
@@ -74,25 +57,18 @@ Now, it's time to set up a spreadsheet with the following columns:
 - Neat CV
 - 3 years
 
-<p>
-Each column is assigned a score of either zero or one point. Depending on the importance of certain criteria, columns can be weighted to reflect their relative significance. For example, if "TypeScript" is a critical skill, we can multiply its score by a factor of three.
-</p>
+Each column is worth zero or one point. Depending on how important a criterion is, you can weight its column to reflect that — for example, if TypeScript is a critical skill, multiply its score by three.
 
-<p>
-Once the spreadsheet is set up, you can begin reviewing resumes and evaluating each candidate by asking the following questions:
-</p>
-1. Does the candidate have JavaScript experience? If "yes," award one point.
-2. Does the candidate have TypeScript experience? If "no," award zero points.
-3. Does the candidate have ReactJS experience? If "yes," award one point.
+Once the spreadsheet is set up, start reviewing résumés and score each candidate by asking questions like:
 
-<p>
-At this point, the candidate has accumulated two points, though the process should now be clear. 
-</p>
-<p>
-The total possible score a candidate can achieve is 13 points (one for each keyword or condition, or more if columns are weighted). You can then review several resumes, focusing on those that score 10 points or higher, or select your top 10 candidates. Adjusting the weightings allows you to tailor the process to prioritize the skills most important for the role. 
-</p>
-<p>
-You may also notice that some criteria are closely related. For example, strong ReactJS skills without a solid JavaScript foundation are unlikely, so you might consider those two columns together when evaluating a candidate’s overall qualifications.
-</p>
-<p>
-Feel free to experiment with and refine the scoring formula to suit your preferences.</p>
+1. Does the candidate have JavaScript experience? If yes, award one point.
+2. Does the candidate have TypeScript experience? If no, award zero points.
+3. Does the candidate have ReactJS experience? If yes, award one point.
+
+At this point the candidate has two points — you get the idea for the rest.
+
+The maximum possible score is 13 points (one per keyword or condition, more if columns are weighted). Review your resumes and focus on the candidates who score highest — say, 10 or above, or simply your top 10. Adjusting the weights lets you tailor the process toward whatever skills matter most for the role.
+
+Some criteria are closely related — strong ReactJS skills without a solid JavaScript foundation are unlikely, for instance — so it's worth considering related columns together rather than in isolation.
+
+Feel free to experiment with and refine the scoring formula to suit your own hiring process.
