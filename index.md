@@ -6,50 +6,39 @@ title: About Me
 
 ## Me In 10 Seconds
 
-<p>
-  I'm South African with German roots and Swiss citizenship. <br /> I have been working as a
-  {% include link.html href="https://en.wikipedia.org/wiki/Web_application" text="web application" %}
-  developer since 2005.<br /> I love spending time with my daughter, friends and family. I enjoy multi day
-  trekking tours in the mountains and (trail) running.
-</p>
+I'm South African with German roots and Swiss citizenship. <br />
+I have been working as a [web application](https://en.wikipedia.org/wiki/Web_application) developer since 2005. <br />
+I love spending time with my daughter, friends and family. I enjoy multi-day trekking tours in the mountains and (trail) running.
 
 ## What Am I Doing Now?
 
-<p>See {% include link.html text="my \"now\" page" href="/now" %}.</p>
+See [my "now" page](/now).
 
 ## Core Values
 
-<p>See {% include link.html text="my \"core values\" page" href="/core-values" %}.</p>
+See [my "core values" page](/core-values).
 
 ## Favourite Quotes
 
-<p>See {% include link.html text="my \"favourite quotes\" page" href="/favourite-quotes" %}.</p>
+See [my "favourite quotes" page](/favourite-quotes).
 
 ## Reading
 
-<p>See {% include link.html text="my \"Reading\" page" href="/reading" %}.</p>
+See [my "Reading" page](/reading).
 
 ## Posts
 
-<ul class="px-4 mb-2">
-  {% for post in site.posts %}
-  <li class="list-disc">
-    <a class="underline text-primary" href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
+<ul>
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> — <small>{{ post.date | date: "%-d. %B %Y" }}</small></li>
+{% endfor %}
 </ul>
 
-<p>You can find some of {% include link.html href="https://medium.com/@tangiblej" text="my
-  thoughts on Medium." %} as well.</p>
+You can find some of my [thoughts on Medium](https://medium.com/@tangiblej) as well.
 
 ## Get In Touch
 
-<ul class="px-4">
-  <li class="list-disc">
-    {% include link.html href="mailto:thomas.junghans@gmail.com" text=site.data.site.email %}
-  </li>
-  <li class="list-disc">{% include link.html href="https://github.com/tjunghans" text="Github" %}</li>
-  <li class="list-disc">
-    {% include link.html href="https://www.linkedin.com/in/thomasjunghans/" text="LinkedIn" %}
-  </li>
-</ul>
+- [{{ site.data.site.email }}](mailto:{{ site.data.site.email }})
+- [Github](https://github.com/tjunghans)
+- [LinkedIn](https://www.linkedin.com/in/thomasjunghans/)
+- [RSS Feed](/feed.xml)

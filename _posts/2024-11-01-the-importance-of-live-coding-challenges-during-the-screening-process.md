@@ -4,34 +4,18 @@ tags: hiring recruiting screening cvs software engineer
 category: recruiting
 ---
 
-<p>
-While live coding challenges may not always be perceived as enjoyable, they hold significant value in evaluating a candidate’s suitability for a software engineering role. These challenges serve as a practical assessment of a candidate’s skills, typically involving the completion of an incomplete application to ensure it successfully meets predefined tests and functions as intended.
+Live coding challenges aren't always fun, but they're one of the most valuable ways to evaluate whether a candidate is a good fit for a software engineering role. Typically, the candidate completes an unfinished application until it passes a predefined set of tests and works as intended — a practical, hands-on skills assessment rather than a theoretical one.
 
+During the challenge, candidates are usually observed by one or more experienced engineers from the hiring company. This matters: it reveals not just technical ability, but also how a candidate communicates and solves problems under pressure.
 
-<p>
-During the challenge, candidates are usually observed by one or more experienced engineers from the hiring company. This setting is crucial as it not only showcases the candidate’s technical abilities but also reveals their communication and problem-solving skills under pressure.
-</p>
+The challenge should match the candidate's background, particularly what's on their CV. If someone claims ten years of JavaScript experience, I expect that to show in how they perform.
 
-<p>
-It is essential for the live coding challenge to align with the candidate’s background, particularly as stated in their CV. For instance, if a candidate claims ten years of experience with JavaScript, we expect to see that expertise reflected in their performance during the challenge.
-</p>
+Nobody can memorize an entire programming language, and candidates shouldn't feel they need to know everything or stay perfectly composed throughout. If they get stuck, I'd rather they ask questions — that shows confidence, self-awareness, and honesty, not weakness.
 
-<p>
-We recognize that memorizing every aspect of a programming language is unrealistic. Candidates should not feel the need to know everything or maintain complete composure throughout the challenge. If they encounter difficulties, we encourage them to ask questions; this demonstrates confidence in their abilities, self-awareness, and honesty.
-</p>
+I expect candidates to stay engaged: asking questions, thinking out loud, and talking through their approach as they work toward a solution. A solid grasp of core programming concepts — control flow, variables, operators, and expressions — is expected too.
 
-<p>
-We expect candidates to engage actively during the challenge by asking questions and articulating their thought processes as they work toward a solution. A foundational understanding of key programming concepts — such as control flow structures, variables, operations, and expressions — is also anticipated.
-</p>
+Having sat on both sides of the table, I've found the best sessions are the ones with real back-and-forth, even a bit of laughter along the way.
 
-<p>
-Having participated in numerous live coding challenges from both sides, I believe that a successful session is often indicated by the level of interaction and enjoyment experienced. When candidates and interviewers engage in light conversation and even laughter, it fosters a more positive atmosphere.
-</p>
+A live coding challenge works best when both sides approach it with honesty and empathy: it's on the candidate to be open about what they know and don't, and on the interviewer to make the process feel safe rather than adversarial.
 
-<p>
-A live coding challenge can be a constructive and enjoyable experience when both parties approach it with honesty and empathy. It is the candidate’s responsibility to be open during the challenge, while interviewers should strive to create a comfortable and supportive environment.
-</p>
-
-<p>
-If the challenge feels daunting, it may not be the format itself that is unappealing, but rather the surrounding atmosphere. Maybe you don’t want to work at this place after all.
-</p>
+If the challenge feels daunting, the problem is often not the format itself, but the atmosphere around it. And if that's the case — maybe you don't want to work there after all.

@@ -4,24 +4,22 @@ tags: software pragmatic programmer
 category: software
 ---
 
-I made the following notes while reading the book *The Pragmatic Programmer 20th Anniversary Edition, chapter 4, Tip 36: You Can't Write Perfect Software*:
+I made the following notes while reading *The Pragmatic Programmer, 20th Anniversary Edition*, chapter 4, Tip 36: You Can't Write Perfect Software:
 
 > Perfect Software doesn't exist
 
-Everyone thinks they are the only good driver on the planet and yet we all drive defensively. This is how we should approach writing software.
+Everyone thinks they're the only good driver on the planet, yet we all still drive defensively. **That's exactly how we should approach writing software.**
 
 > We are constantly interfacing with other people's code - code that might not live up to our high standards...
 
-At a minimum, there are two people working on the same code: you today and you in a few months time. In a few months time you may find yourself looking back at what you wrote and scratching your head. No one writes perfect code, not even you and I. 
+At a minimum, two people work on the same code: you today, and you a few months from now. Look back at code you wrote a while ago and you'll probably find yourself scratching your head — no one writes perfect code, not even you and I.
 
-Test what you write. Ensure you have the highest level of confidence with what you deliver.
+**Test what you write.** Make sure you're as confident as possible in what you deliver.
 
-> Stick to small steps. 
+> Stick to small steps.
 
-I cannot stress this enough and it's more difficult than it sounds. 
+I can't stress this enough, and it's harder than it sounds: **write code in small increments.**
 
-Write code in small increments. 
+Write, test, commit, open a pull request. Rinse and repeat.
 
-Write, test, commit, create a merge/pull request. Rinse and repeat. 
-
-This may sound like a lot of work, but from experience I know, that 10 pull requests will get reviewed and merged faster than one with the same changes combined.
+It sounds like more work, but in my experience, **10 small pull requests get reviewed and merged faster than one big one with the same changes combined.**
