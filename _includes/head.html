@@ -1,14 +1,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ site.data.site.name }} - {{ page.title }}</title>
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="canonical" href="{{ site.data.site.host }}">
-    <meta name="description" content="{{ page.description }}">
-    <meta name="og:title" property="og:title" content="{{ site.data.site.name }} - {{ page.title }}">
-    <meta name="og:description" property="og:description" content="{{ page.description }}">
-    <meta name="og:image" property="og:image" content="{{ site.data.site.host }}/assets/img/thomas-junghans_web_sw.jpg">
     <link rel="stylesheet" href="/css/style.css" />
+    {% seo %}
+    {% feed_meta %}
     <script type="application/ld+json">
         {
           "@context": "http://schema.org",

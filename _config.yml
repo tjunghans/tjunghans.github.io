@@ -1,5 +1,12 @@
 timezone: Europe/Zurich
 author: "Thomas Junghans"
+title: "Thomas Junghans"
+description: "Swiss based web application developer."
+url: "https://thomasjunghans.ch"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 defaults:
   -
     scope:
@@ -12,6 +19,7 @@ defaults:
     values:
       layout: "default"
       description: "Swiss based web application developer."
+      image: "/assets/img/thomas-junghans_web_sw.jpg"
   -
    scope:
       path: ""
