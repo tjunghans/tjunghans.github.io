@@ -3,7 +3,7 @@ title: What I'm doing now
 ---
 
 <p>
-    Updated Feb 25, 2026, from my home in Switzerland.
+    Updated Aug 23, 2026, from my home in Switzerland.
 </p>
 
 <p>I live and work in Zurich city.</p>
@@ -21,7 +21,7 @@ title: What I'm doing now
     <li class="list-disc">{% include link.html text="The Trillion Dollar Coach by Eric Schmidt, Jonathan Rosenberg, and Alan Eagle" href="https://trilliondollarcoach.com/" %}</li>
 </ul>
 
-<p>I’ve taken on a challenge with a close friend to run from Altstetten up Uetliberg 52 times this year. It’s a 14 km round trip with a 400m vertical climb - a tough but rewarding weekly ritual."</p>
+<p>I’ve taken on a challenge with a close friend to run from Altstetten up Uetliberg 52 times this year. It’s a 14 km round trip with a 400m vertical climb - a tough but rewarding weekly ritual.</p>
 
 ## Courses
 
