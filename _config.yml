@@ -7,6 +7,20 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+exclude:
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - node_modules
+  - vendor
+  - .claude
+  - .editorconfig
+  - .nvmrc
+  - .jekyll-cache
 defaults:
   -
     scope:
