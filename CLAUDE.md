@@ -8,10 +8,10 @@ Thomas Junghans's personal website and blog (thomasjunghans.ch, hosted on GitHub
 
 ## Commands
 
-Ruby (via `.nvmrc`-pinned Node lts/* and the Gemfile's `jekyll` gem) and Node are both required.
+Ruby (with Bundler, for the Gemfile's `github-pages` gem) and Node (`.nvmrc`: lts/*, for Tailwind) are both required. Run `bundle install` once, and `bundle update github-pages` to track GitHub Pages' current versions (https://pages.github.com/versions/).
 
 - `npm install` — installs deps and runs `postinstall`, which builds `css/style.css` from `assets/css/style.css` via Tailwind.
-- `npm start` — runs `jekyll serve` (serves at http://localhost:4000).
+- `npm start` — runs `bundle exec jekyll serve` (serves at http://localhost:4000).
 - `npm run watch:css` — rebuilds Tailwind CSS on change; run alongside `npm start` when editing styles.
 - `npm run build:css` — one-off Tailwind build (`assets/css/style.css` → `css/style.css`).
 - `npm run lh` — runs Lighthouse against the local dev server (must already be running via `npm start`).
@@ -27,7 +27,8 @@ Standard Jekyll layout/include/data separation:
 - `_includes/` — small reusable partials: `head.html` (`{% seo %}`/`{% feed_meta %}` tags plus a custom JSON-LD `Person` schema, stylesheet link), `header.html` (site name + page title), `link.html` (styled anchor helper used throughout content via `{% include link.html href="..." text="..." %}`).
 - `_data/site.yml` — site-wide values (`name`, `host`, `email`) referenced as `site.data.site.*` in templates and content (separate from the `_config.yml` `title`/`description`/`url` used by `jekyll-seo-tag`).
 - `_config.yml` — top-level `title`/`description`/`url`/`plugins` feed `jekyll-seo-tag`/`jekyll-sitemap`/`jekyll-feed`; `defaults` sets every page's `image` and `description` front matter (used as the `jekyll-seo-tag` per-page fallback for OG/Twitter tags — override in a page's own front matter to customize), everything under `assets/img` gets `image: true`, every page defaults to `layout: default`, and everything in `_posts` (type `posts`) defaults to `layout: post`.
-- Plugins (`jekyll-seo-tag`, `jekyll-sitemap`, `jekyll-feed`) are Gemfile deps under `group :jekyll_plugins` — all on GitHub Pages' supported plugin list, so the default Pages build handles them without a custom Actions workflow. They generate per-page meta/OG/Twitter tags + JSON-LD, `sitemap.xml`, and `feed.xml` respectively.
+- The Gemfile depends on the `github-pages` gem (not `jekyll` directly), so local builds use the exact Jekyll (3.10.x) and plugin versions the default GitHub Pages build uses — no custom Actions workflow. Don't use Jekyll 4-only features. The gem also auto-enables plugins like `jekyll-optional-front-matter`, which publishes any front-matter-less `.md` file; keep non-site files (e.g. `CLAUDE.md`, `README.md`) in `_config.yml`'s `exclude` list (which replaces Jekyll's defaults, so it repeats them).
+- Plugins (`jekyll-seo-tag`, `jekyll-sitemap`, `jekyll-feed`) are listed under `plugins:` in `_config.yml`. They generate per-page meta/OG/Twitter tags + JSON-LD, `sitemap.xml`, and `feed.xml` respectively.
 - `404.html` — custom not-found page (`permalink: /404.html`, `sitemap: false`) styled via the `default` layout.
 
 Content:

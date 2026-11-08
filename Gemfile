@@ -2,12 +2,9 @@
 
 source "https://rubygems.org"
 
-git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+# Mirrors the exact Jekyll + plugin versions GitHub Pages uses in production.
+# See https://pages.github.com/versions/ — run `bundle update github-pages` to stay current.
+gem "github-pages", group: :jekyll_plugins
 
-gem "jekyll"
-
-group :jekyll_plugins do
-  gem "jekyll-seo-tag"
-  gem "jekyll-sitemap"
-  gem "jekyll-feed"
-end
+# Only needed for local `jekyll serve` on Ruby 3+.
+gem "webrick"
