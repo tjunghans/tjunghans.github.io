@@ -2,7 +2,7 @@
 title: About Me
 ---
 
-<img src="/assets/img/thomas-junghans_web_sw.jpg" alt="Photo of me" class="lg:w-1/2 w-full" />
+<img src="/assets/img/thomas-junghans_web_sw.jpg" alt="Thomas Junghans" class="lg:w-1/2 w-full" />
 
 ## Me In 10 Seconds
 
@@ -31,7 +31,6 @@ You can find some of my [thoughts on Medium](https://medium.com/@tangiblej) as w
 
 ## Get In Touch
 
-- [{{ site.data.site.email }}](mailto:{{ site.data.site.email }})
 - [Github](https://github.com/tjunghans)
 - [LinkedIn](https://www.linkedin.com/in/thomasjunghans/)
 - [RSS Feed](/feed.xml)
