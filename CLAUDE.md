@@ -22,10 +22,10 @@ There is no test suite (`npm test` is a stub) and no linter configured.
 
 Standard Jekyll layout/include/data separation:
 
-- `_layouts/default.html` — base HTML shell (head, header, footer) wrapping every page.
+- `_layouts/default.html` — base HTML shell (head, header, content) wrapping every page.
 - `_layouts/post.html` — wraps `default`, adds the "last post update" line above post content. All files in `_posts/` use this layout implicitly via `_config.yml` defaults (see below).
 - `_includes/` — small reusable partials: `head.html` (`{% seo %}`/`{% feed_meta %}` tags plus a custom JSON-LD `Person` schema, stylesheet link), `header.html` (site name + page title), `link.html` (styled anchor helper used throughout content via `{% include link.html href="..." text="..." %}`).
-- `_data/site.yml` — site-wide values (`name`, `host`, `email`) referenced as `site.data.site.*` in templates and content (separate from the `_config.yml` `title`/`description`/`url` used by `jekyll-seo-tag`).
+- `_data/site.yml` — site-wide values (`name`, `host`) referenced as `site.data.site.*` in templates and content (separate from the `_config.yml` `title`/`description`/`url` used by `jekyll-seo-tag`).
 - `_config.yml` — top-level `title`/`description`/`url`/`plugins` feed `jekyll-seo-tag`/`jekyll-sitemap`/`jekyll-feed`; `defaults` sets every page's `image` and `description` front matter (used as the `jekyll-seo-tag` per-page fallback for OG/Twitter tags — override in a page's own front matter to customize), everything under `assets/img` gets `image: true`, every page defaults to `layout: default`, and everything in `_posts` (type `posts`) defaults to `layout: post`.
 - The Gemfile depends on the `github-pages` gem (not `jekyll` directly), so local builds use the exact Jekyll (3.10.x) and plugin versions the default GitHub Pages build uses — no custom Actions workflow. Don't use Jekyll 4-only features. The gem also auto-enables plugins like `jekyll-optional-front-matter`, which publishes any front-matter-less `.md` file; keep non-site files (e.g. `CLAUDE.md`, `README.md`) in `_config.yml`'s `exclude` list (which replaces Jekyll's defaults, so it repeats them).
 - Plugins (`jekyll-seo-tag`, `jekyll-sitemap`, `jekyll-feed`) are listed under `plugins:` in `_config.yml`. They generate per-page meta/OG/Twitter tags + JSON-LD, `sitemap.xml`, and `feed.xml` respectively.

@@ -4,9 +4,7 @@ tags: management
 category: management
 ---
 
-# The Responsiveness Trap: What Nobody Tells You About the Shift to Management
-
-As an individual contributor, my inbox and chat messages were manageable. Tackling them as they arrived felt productive, and context, switching away from deep work was a welcome mental break.
+As an individual contributor, my inbox and chat messages were manageable. Tackling them as they arrived felt productive, and context switching away from deep work was a welcome mental break.
 
 Moving into management changed everything.
 
@@ -22,7 +20,7 @@ Human cognitive capacity is finite. Research on context-switching demonstrates t
 
 Trying to be everywhere at once doesn't make you a responsive leader, it creates a bottleneck and triggers decision fatigue.
 
-By applying Parkinson’s Law, the principle that work expands to fill the time allotted to it—time-boxing creates firm structural boundaries (Parkinson, 1955). It protects high-value work, prevents reactive demands from hijacking your entire calendar, and forces you to trust your team to resolve issues without your real-time input on every thread.
+By applying Parkinson’s Law — the principle that work expands to fill the time allotted to it — time-boxing creates firm structural boundaries (Parkinson, 1955). It protects high-value work, prevents reactive demands from hijacking your entire calendar, and forces you to trust your team to resolve issues without your real-time input on every thread.
 
 Segmenting your day isn't just a scheduling hack; it's a fundamental leadership skill.
 
