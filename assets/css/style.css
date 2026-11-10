@@ -49,3 +49,10 @@ blockquote {
 p {
     @apply my-4
 }
+figure {
+    @apply my-6
+}
+
+figcaption {
+    @apply mt-2 text-sm text-gray-400
+}

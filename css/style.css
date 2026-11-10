@@ -724,6 +724,19 @@ p {
   margin-bottom: 1rem;
 }
 
+figure {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 768px) {
   .md\:text-lg {
     font-size: 1.125rem;
