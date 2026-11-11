@@ -1,5 +1,6 @@
 ---
 title: About Me
+description: "Thomas Junghans leads a software engineering team at a Swiss private bank in Zurich. Writing on engineering leadership, hiring and web development."
 ---
 
 <img src="/assets/img/thomas-junghans_web_sw.jpg" alt="Thomas Junghans" class="lg:w-1/2 w-full" />

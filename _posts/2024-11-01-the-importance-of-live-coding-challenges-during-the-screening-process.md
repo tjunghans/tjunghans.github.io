@@ -1,5 +1,6 @@
 ---
 title: The Importance of Live Coding Challenges in the Screening Process
+description: "Why live coding challenges are one of the best ways to assess software engineers, and what I look for as an interviewer: communication, honesty, fundamentals."
 tags: hiring recruiting screening cvs software engineer
 category: recruiting
 ---

@@ -32,7 +32,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-      description: "Software engineering team lead based in Zurich, Switzerland."
       image: "/assets/img/thomas-junghans_web_sw.jpg"
   -
    scope:

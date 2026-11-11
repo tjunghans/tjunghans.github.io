@@ -1,5 +1,6 @@
 ---
 title: Favourite Quotes
+description: "Favourite quotes on decisiveness, simplicity, resilience and energy, from Marcus Aurelius, Tony Robbins, Phil Stutz and others."
 ---
 
 <p><quote class="italic">"You'll never feel ready, because ready is not a feeling, it's a decision.”</quote><span> - Unknown</span></p>

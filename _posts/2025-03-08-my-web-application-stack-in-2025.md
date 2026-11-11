@@ -1,5 +1,6 @@
 ---
 title: My web application stack in 2025
+description: "The tools I use to build web applications in 2025: Vite, TypeScript, React, SWC, Vitest, Testing Library, TanStack Table, Tailwind CSS and React Router."
 tags: web application tailwindcss vite vitest swc typescript eslint react
 category: frontend
 ---

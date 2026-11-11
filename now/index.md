@@ -1,5 +1,6 @@
 ---
 title: What I'm doing now
+description: "What Thomas Junghans is focused on now: leading a development team in Zurich, a weekly Uetliberg run and Sacool, a math exercise generator for schools."
 ---
 
 <p>

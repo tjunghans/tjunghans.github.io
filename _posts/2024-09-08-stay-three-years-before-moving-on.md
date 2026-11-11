@@ -1,5 +1,6 @@
 ---
 title:  Stay at Your Job for Three Years Before Moving On
+description: "Why I look for engineers who stayed at least three years in a role: what each year teaches you, and why frequent job hopping costs real growth."
 tags: hiring recruiting screening cvs software engineer
 category: recruiting
 ---
