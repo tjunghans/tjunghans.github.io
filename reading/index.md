@@ -1,5 +1,6 @@
 ---
 title: Reading
+description: "Books Thomas Junghans is reading or recently read, on leadership, coaching, clear thinking, software craftsmanship and trading."
 ---
 
 <p>Books I am reading or recently read:</p>

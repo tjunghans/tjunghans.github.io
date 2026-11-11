@@ -1,5 +1,6 @@
 ---
 title: Core Values
+description: "The core values Thomas Junghans lives and leads by: integrity, the Golden Rule, candor and inclusion."
 ---
 ## Integrity
 

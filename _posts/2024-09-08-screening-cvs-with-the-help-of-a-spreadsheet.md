@@ -1,5 +1,6 @@
 ---
 title:  "Screening CVs with the Help of a Spreadsheet"
+description: "How I use a simple spreadsheet scoring system to screen software engineer CVs consistently: picking keywords, weighting criteria and shortlisting candidates."
 tags: hiring recruiting screening cv resume
 category: recruiting
 ---

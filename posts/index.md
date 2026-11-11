@@ -1,6 +1,6 @@
 ---
 title: All Posts
-description: "All posts by Thomas Junghans."
+description: "All posts by Thomas Junghans on engineering leadership, management, hiring software engineers and web development."
 ---
 
 <ul>

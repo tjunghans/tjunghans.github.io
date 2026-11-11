@@ -1,5 +1,6 @@
 ---
 title: My thoughts on "you can't write perfect software"
+description: "Notes on The Pragmatic Programmer's tip \"You Can't Write Perfect Software\": code defensively, test what you write and ship in small pull requests."
 tags: software pragmatic programmer
 category: software
 ---

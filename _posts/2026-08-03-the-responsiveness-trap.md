@@ -1,5 +1,6 @@
 ---
 title: "The Responsiveness Trap: What Nobody Tells You About the Shift to Management"
+description: "Moving into management flooded my inbox. How time-boxing and a new view of availability protect deep work, and why being always available is a trap."
 tags: management
 category: management
 ---
